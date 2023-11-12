@@ -211,3 +211,58 @@ footer .social img {
 
 /* --- Rivers Page ---*/
 
+#rivers_page_title h1 {
+    text-align: center;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.salmon_river_img, .desolation_canyon_img, .grand_canyon_img {
+    border: 10px solid #FFB703;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon_river_text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.desolation_canyon_text {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.grand_canyon_text {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.salmon_river_img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 70%;
+    height: auto;
+}
+
+.desolation_canyon_img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 70%;
+    height: auto;
+}
+
+.grand_canyon_img {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 70%;
+    height: auto;
+}
+
+.salmon_river_text, .desolation_canyon_text, .grand_canyon_text {
+    padding: 20px;
+}
